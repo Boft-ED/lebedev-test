@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  font:
+    16px sans-serif,
+    Arial,
+    Verdana;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+
+
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 0px 30px;
+  }
+}
